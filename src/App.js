@@ -10,7 +10,7 @@ function App() {
   return (
     <ContextWrapper>
       <Container>
-        <h1>Sport app</h1>
+        <h1>Demo app</h1>
         <div className="content" > 
           <Routes/>
         </div>
