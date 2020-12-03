@@ -35,7 +35,8 @@ export default function Dashboard({history}){
 
     const socket = useMemo(
         () => 
-        socketio('http://localhost:8000/', { query: { user: user_id } }),
+        //socketio('http://localhost:8000/', { query: { user: user_id } }),
+        socketio('https://xyzpost-api.herokuapp.com/', { query: { user: user_id } }),
         [user_id]
         );
 
